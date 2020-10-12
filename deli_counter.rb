@@ -8,9 +8,9 @@ def line(customer)
     puts 'The line is currently empty.'
   else
     # binding.pry
-    current_line = 'The line is currently: '
+    current_line = 'The line is currently:'
     customer.each.with_index(1) do |person, i|
-      current_line << "#{i}. #{person}"
+      current_line << " #{i}. #{person}"
     end
     puts current_line
   end
