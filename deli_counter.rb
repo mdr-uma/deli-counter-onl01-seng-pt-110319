@@ -12,5 +12,6 @@ def line(customer)
     customer.each.with_index(1) do |i, person|
       current_line << "#{i}". "#{person}"
     end
+    puts current_line
   end
 end
