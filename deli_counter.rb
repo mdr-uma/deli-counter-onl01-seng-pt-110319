@@ -1,6 +1,6 @@
 # Write your code here.
 require 'pry'
-katz_deli = []
+# katz_deli = []
 
 def line(customer)
   # binding.pry
