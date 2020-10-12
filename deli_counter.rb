@@ -13,6 +13,6 @@ def line(customers)
   end
 end
 
-def take_a_number(customers, name)
-  customers.push(name)
+def take_a_number(katz_deli, name)
+    katz_deli << name
 end
