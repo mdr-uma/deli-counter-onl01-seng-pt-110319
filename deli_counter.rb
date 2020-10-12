@@ -9,7 +9,7 @@ def line(customer)
   else
     # binding.pry
     current_line = 'The line is currently: '
-    customer.each.with_index(1) do |i, person|
+    customer.each.with_index do |i, person|
       current_line << "#{i}. #{person}"
     end
     puts current_line
