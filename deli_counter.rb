@@ -1,15 +1,12 @@
 # Write your code here.
 require 'pry'
-# katz_deli = []
 
-def line(customer)
-  # binding.pry
-  if customer.empty?
+def line(customers)
+  if customers.empty?
     puts 'The line is currently empty.'
   else
-    # binding.pry
     current_line = 'The line is currently:'
-    customer.each.with_index(1) do |person, i|
+    customers.each.with_index(1) do |person, i|
       current_line << " #{i}. #{person}"
     end
     puts current_line
