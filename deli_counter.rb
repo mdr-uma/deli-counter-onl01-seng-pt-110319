@@ -7,6 +7,10 @@ def line(customer)
   if customer.empty?
     puts 'The line is currently empty.'
   else
-    binding.pry
+    # binding.pry
+    current_line = 'The line is currently'
+    customer.each_with_index(1) do |i, person|
+      puts ''
+    end
   end
 end
