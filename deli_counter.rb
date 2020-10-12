@@ -4,5 +4,7 @@ katz_deli = []
 
 def line(customer)
   # binding.pry
-  puts 'The line is currently empty.'
+  if customer.empty?
+    puts 'The line is currently empty.'
+  end
 end
